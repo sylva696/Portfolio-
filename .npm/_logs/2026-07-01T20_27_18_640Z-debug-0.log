@@ -1,0 +1,40 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@10.9.1
+2 info using node@v22.23.0
+3 silly config load:file:/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/public/.npmrc
+5 silly config load:file:/etc/npmrc
+6 verbose title npm install vscode-langservers-extracted
+7 verbose argv "install" "--global" "vscode-langservers-extracted"
+8 verbose logfile logs-max:10 dir:/public/.npm/_logs/2026-07-01T20_27_18_640Z-
+9 verbose logfile /public/.npm/_logs/2026-07-01T20_27_18_640Z-debug-0.log
+10 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+11 silly logfile done cleaning log files
+12 silly idealTree buildDeps
+13 silly fetch manifest vscode-langservers-extracted@*
+14 silly packumentCache full:https://registry.npmjs.org/vscode-langservers-extracted cache-miss
+15 http fetch GET https://registry.npmjs.org/vscode-langservers-extracted attempt 1 failed with EAI_AGAIN
+16 http fetch GET https://registry.npmjs.org/vscode-langservers-extracted attempt 2 failed with EAI_AGAIN
+17 http fetch GET https://registry.npmjs.org/vscode-langservers-extracted attempt 3 failed with EAI_AGAIN
+18 silly placeDep ROOT vscode-langservers-extracted@ OK for:  want: *
+19 verbose type system
+20 verbose stack FetchError: request to https://registry.npmjs.org/vscode-langservers-extracted failed, reason: getaddrinfo EAI_AGAIN registry.npmjs.org
+20 verbose stack     at ClientRequest.<anonymous> (/usr/lib/node_modules/npm/node_modules/minipass-fetch/lib/index.js:130:14)
+20 verbose stack     at ClientRequest.emit (node:events:519:28)
+20 verbose stack     at emitErrorEvent (node:_http_client:108:11)
+20 verbose stack     at _destroy (node:_http_client:967:9)
+20 verbose stack     at onSocketNT (node:_http_client:987:5)
+20 verbose stack     at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+21 error code EAI_AGAIN
+22 error syscall getaddrinfo
+23 error errno EAI_AGAIN
+24 error request to https://registry.npmjs.org/vscode-langservers-extracted failed, reason: getaddrinfo EAI_AGAIN registry.npmjs.org
+25 silly unfinished npm timer reify 1782937644949
+26 silly unfinished npm timer reify:loadTrees 1782937644983
+27 verbose cwd /
+28 verbose os Linux 6.12.38-android16-5-gb575a0b6e647-ab14355190-4k
+29 verbose node v22.23.0
+30 verbose npm  v10.9.1
+31 verbose exit 1
+32 verbose code 1
+33 error A complete log of this run can be found in: /public/.npm/_logs/2026-07-01T20_27_18_640Z-debug-0.log

@@ -1,0 +1,39 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@10.9.1
+2 info using node@v22.23.0
+3 silly config load:file:/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/public/.npmrc
+5 silly config load:file:/etc/npmrc
+6 verbose title npm install typescript-language-server typescript
+7 verbose argv "install" "--global" "typescript-language-server" "typescript"
+8 verbose logfile logs-max:10 dir:/public/.npm/_logs/2026-06-30T17_58_57_860Z-
+9 verbose logfile /public/.npm/_logs/2026-06-30T17_58_57_860Z-debug-0.log
+10 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+11 silly logfile done cleaning log files
+12 silly idealTree buildDeps
+13 silly fetch manifest typescript-language-server@*
+14 silly packumentCache full:https://registry.npmjs.org/typescript-language-server cache-miss
+15 http fetch GET https://registry.npmjs.org/typescript-language-server attempt 1 failed with EAI_AGAIN
+16 http fetch GET 200 https://registry.npmjs.org/typescript-language-server 16341ms attempt #2 (cache miss)
+17 silly packumentCache full:https://registry.npmjs.org/typescript-language-server set size:undefined disposed:false
+18 silly fetch manifest typescript@*
+19 silly packumentCache full:https://registry.npmjs.org/typescript cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/typescript 1130ms (cache miss)
+21 silly packumentCache full:https://registry.npmjs.org/typescript set size:undefined disposed:false
+22 silly placeDep ROOT typescript@6.0.3 OK for:  want: *
+23 silly placeDep ROOT typescript-language-server@5.3.0 OK for:  want: *
+24 silly reify moves {}
+25 http cache typescript-language-server@https://registry.npmjs.org/typescript-language-server/-/typescript-language-server-5.3.0.tgz 0ms (cache hit)
+26 http cache typescript@https://registry.npmjs.org/typescript/-/typescript-6.0.3.tgz 0ms (cache hit)
+27 silly tarball no local data for typescript-language-server@https://registry.npmjs.org/typescript-language-server/-/typescript-language-server-5.3.0.tgz. Extracting by manifest.
+28 silly tarball no local data for typescript@https://registry.npmjs.org/typescript/-/typescript-6.0.3.tgz. Extracting by manifest.
+29 http fetch GET 200 https://registry.npmjs.org/typescript-language-server/-/typescript-language-server-5.3.0.tgz 447ms (cache miss)
+30 http fetch GET 200 https://registry.npmjs.org/typescript/-/typescript-6.0.3.tgz 6538ms (cache miss)
+31 silly ADD node_modules/typescript-language-server
+32 silly ADD node_modules/typescript
+33 verbose cwd /
+34 verbose os Linux 6.12.38-android16-5-gb575a0b6e647-ab14355190-4k
+35 verbose node v22.23.0
+36 verbose npm  v10.9.1
+37 verbose exit 0
+38 info ok
